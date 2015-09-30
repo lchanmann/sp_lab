@@ -8,6 +8,7 @@ close all;
 
 % add current directory to path
 addpath(pwd);
+addpath([pwd '/../wav']);
 
 fid = fopen('time_marks.txt', 'w');
 frame_width = 10; % frame_width = 10ms

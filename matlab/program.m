@@ -14,7 +14,7 @@ frame_width = 10; % frame_width = 10ms
 frames_per_second = 1000 / frame_width;
 
 tic;
-files = dir('../wav*.wav');
+files = dir('../wav/*.wav');
 for i=1:length(files)
     filename = files(i).name;
     % print filename

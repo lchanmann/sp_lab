@@ -1,0 +1,6 @@
+*.un~
+.DS_Store
+*.swp
+ruby/vendors/
+ruby/wav_out
+*.m~

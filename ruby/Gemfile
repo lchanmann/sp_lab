@@ -1,0 +1,4 @@
+source 'https://rubygems.org'
+
+gem 'libxml-ruby'
+gem 'wavefile', git: 'https://github.com/lchanmann/wavefile'

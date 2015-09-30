@@ -1,0 +1,20 @@
+GIT
+  remote: https://github.com/lchanmann/wavefile
+  revision: 4d654bc5d10818ebbfccebcd144579a8e92030f0
+  specs:
+    wavefile (0.6.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    libxml-ruby (2.8.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  libxml-ruby
+  wavefile!
+
+BUNDLED WITH
+   1.10.6

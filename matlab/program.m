@@ -18,7 +18,7 @@ files = dir('../wav/*.wav');
 for i=1:length(files)
     filename = files(i).name;
     % print filename
-    fprintf('Filename: %s\n', filename);
+    fprintf('%d. Filename: %s\n', i, filename);
     wav = audioinfo(filename);
     energy = energy_profile(wav, frame_width);
     % energy jumps

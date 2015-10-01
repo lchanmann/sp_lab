@@ -8,14 +8,14 @@ close all;
 
 % add current directory to path
 addpath(pwd);
-addpath([pwd '/../wav']);
 
 fid = fopen('time_marks.txt', 'w');
 frame_width = 10; % frame_width = 10ms
 frames_per_second = 1000 / frame_width;
+wav_dir = '../wav/';
 
 tic;
-files = dir('../wav/*.wav');
+files = dir([wav_dir '*.wav']);
 for i=1:length(files)
     filename = files(i).name;
     % print filename

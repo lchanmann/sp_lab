@@ -44,7 +44,7 @@ OUTPUT_DIR = 'wav_out/'
 WAV_REGEXP = /\.(wav|wave)$/
 
 extractor = Htk::WaveExtractor.new OUTPUT_DIR
-File.open('waves_times.txt', 'r') do |file|
+File.open('time_marks.txt', 'r') do |file|
   file.each do |line|
     extractor.open File.join(WAV_DIR, line.chomp) if line =~ WAV_REGEXP
     extractor.extract line.split

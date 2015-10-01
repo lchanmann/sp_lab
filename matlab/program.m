@@ -20,7 +20,7 @@ for i=1:length(files)
     filename = files(i).name;
     % print filename
     fprintf('%d. Filename: %s\n', i, filename);
-    wav = audioinfo(filename);
+    wav = audioinfo([wav_dir filename]);
     energy = energy_profile(wav, frame_width);
     % energy jumps
     J = find_jump(energy, 0.05, 80);

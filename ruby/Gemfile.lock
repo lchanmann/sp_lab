@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/lchanmann/wavefile
-  revision: 4d654bc5d10818ebbfccebcd144579a8e92030f0
+  revision: c2fb10ffce784d0e341c193095d942cd592d2765
   specs:
     wavefile (0.6.0)
 

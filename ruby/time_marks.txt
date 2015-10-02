@@ -1786,7 +1786,7 @@ pv-khourypitou-m-pcID.wav
 683.630 1.390
 687.200 1.290
 sr-chhannhangsoung-m-pcID.wav
-0.000 0.940
+0.000 0.580
 1.390 1.030
 3.050 1.540
 6.490 1.040

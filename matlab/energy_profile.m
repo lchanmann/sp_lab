@@ -10,6 +10,7 @@ total_frames = ceil(audio.TotalSamples / samples_per_frame);
 energy = zeros(1, total_frames);
 
 fprintf('Starting energy profiling');
+Y = audioread(audio.Filename);
 for t=1:total_frames
     start = samples_per_frame * (t-1) + 1;
     finish = start + samples_per_frame - 1;
@@ -17,8 +18,8 @@ for t=1:total_frames
         finish = audio.TotalSamples;
     end
 
-    samples = [start finish];
-    [y,~] = audioread(audio.Filename, samples);
+    samples = start:finish;
+    y = Y(samples);
     energy(t) = y' * y;
     % print progress (.)
     progress(t, total_frames);
@@ -27,6 +28,7 @@ fprintf('\n');
 
 % % Plot energy profile
 % figure;
+% hold on;
 % plot(1:total_frames, energy);
 % title('Six words wav energy profile');
 % xlabel('Frame (10ms each)');

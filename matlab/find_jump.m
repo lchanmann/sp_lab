@@ -1,6 +1,6 @@
 function [ J ] = find_jump( energy, q1, q2 )
 % FIND_JUMP find jump position in energy profile
-%       q1 - Amplitute threshold
+%       q1 - Energy threshold
 %       q2 - Frames jump threshold
 %
 % SP_Lab - University of Missouri-Columbia

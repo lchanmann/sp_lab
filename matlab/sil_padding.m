@@ -3,8 +3,8 @@ function [ J ] = sil_padding( J, padding )
 %       J           - energy position
 %       padding     - padding frames
 
-J(:,1) = J(:,1) - padding;
-J(:,2) = J(:,2) + padding;
+J(:,1) = J(:,1) - padding(1);
+J(:,2) = J(:,2) + padding(end);
 
 % make start pos non-negative
 I = find(J(:,1) < 0);

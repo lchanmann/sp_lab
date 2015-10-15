@@ -24,15 +24,17 @@ words = zeros(1, C);
 % q1 = 0.2; % sqrt(x'x);
 q1 = 0.05;
 q2 = 100; % frame jump threshold
+m = 5;
 for i=1:C
     filename = files(i).name;
     % print filename
     fprintf('%d. Filename: %s\n', i, filename);
     wav = audioinfo([wav_dir filename]);
-    energy = energy_profile(wav, frame_width);
+    [energy, zc] = energy_profile(wav, frame_width);
     % energy jumps
     J = find_jump(energy, q1, q2);
     J = duration_filter(J, 0.1 * frames_per_second);
+    J = zc_filter(J, zc, m);
     J = sil_padding(J, [20 40]);
     M = tm(J, frames_per_second);
     words(i) = size(M, 1);

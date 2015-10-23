@@ -41,8 +41,8 @@
 ក្រុងកំពង់សោម 		k r oh ng k om p oh ng s aw m
 ពោធិ៍សាត់ 			p ow t s ah t
 ខេត្តពោធិ៍សាត់ 		kh ae t p ow t s ah t
-មណ្ឌុលគិរី 			m oa n d oh l k ih r iy
-ខេត្តមណ្ឌុលគិរី 		kh ae t m oa n d oh l k ih r iy
+មណ្ឌលគិរី 			m oa n d oh l k ih r iy
+ខេត្តមណ្ឌលគិរី 		kh ae t m oa n d oh l k ih r iy
 រតនគិរី 				r aa t aa n aak k ih r iy
 ខេត្តរតនគិរី 			kh ae t r aa t aa n aak k ih r iy
 ស្ទឹងត្រែង 			s t oe ng t r ae ng
@@ -55,8 +55,8 @@
 ខេត្តឧត្ដរមានជ័យ 		kh ae t uh d ah r m ea n c ey
 ភ្នំពេញ 				ph n um p ie gn
 ក្រុងភ្នំពេញ 			k r oh ng ph n um p ie gn
-0_សូន្យ 			s ow n
-0_ហ្សេរ៉ូ 			hh s ie r ow
+០_សូន្យ 			s ow n
+០_ហ្សេរ៉ូ 			hh s ie r ow
 ១ 					m ue y
 ២ 					p iy
 ៣ 					b ey
@@ -74,8 +74,8 @@
 ១៤ 					d aa b b ue n
 ១៥ 					d aa b b r am
 ១៦ 					d aa b b r am m ue y
-១៧_ដបប្រាំពីរ 			d aa b b r am p iy
-១៧_ដបប្រាំពិល 		d aa b b r am p eh l
+១៧_ដប់ប្រាំពីរ 			d aa b b r am p iy
+១៧_ដប់ប្រាំពិល 		d aa b b r am p eh l
 ១៨ 					d aa b b r am b ey
 ១៩ 					d aa b b r am b ue n
 ២០ 					m ph ey
@@ -94,9 +94,9 @@
 ខែសីហា 				kh ae s ey h ah
 ខែកញ្ញា 			kh ae k aa gn ah
 ខែតុលា 				kh ae t oh l ah
-ខែវិច្ឆកា 			kh ae w iy ch k ah
+ខែវិច្ឆិកា 			kh ae w iy ch k ah
 ខែធ្នូ 				kh ae t n uw
-ថ្ងៃចន្ទ័ 			th ng ay c ah n
+ថ្ងៃច័ន្ទ 			th ng ay c ah n
 ថ្ងៃអង្គារ 			th ng ay aa ng k ea
 ថ្ងៃពុធ 				th ng ay p oh t
 ថ្ងៃព្រហស្បនិ៍ 		th ng ay p r oa hh aa s
@@ -110,11 +110,11 @@
 ថយក្រោយ 			th aa y k r aw y
 ទៅមុខ 				t auw m oh kh
 ម្តងទៀត 			m d aa ng t ea t
-ផ្ដាំសារ 				ph d am s ah r
-ទំពរ័ដើម 			t om p aa r d aer m
-ទំពរ័មុន 				t om p aa r m oh n
-ទំពរ័បន្ទាប់ 			t om p aa r b aa n t aa b
-ព័ត៍មាន 				p aa t m ea n
+ផ្តាំសារ 				ph d am s ah r
+ទំព័រដើម 			t om p aa r d aer m
+ទំព័រមុន 				t om p aa r m oh n
+ទំព័របន្ទាប់ 			t om p aa r b aa n t aa b
+ព័ត៌មាន 				p aa t m ea n
 ចុះឈ្មោះ 			c ouh ch m ueh
 លុបឈ្មោះ 			l oh b ch m ueh
 ហៅ 				hh aow
@@ -131,9 +131,9 @@
 ខែ 					kh ae
 ឆ្នាំ 				ch n am
 ថ្ងៃនេះ 				th ng ay n iyh
-ម្សិលមុិញ 			m s eh l m eh gn
-ម្សិសម្ងៃ 			m s eh l m ng ay
-ម្សិសម្ងៃមួយ 		m s eh l m ng ay m ue y
+ម្សិលម៉ិញ 			m s eh l m eh gn
+ម្សិលម្ងៃ 			m s eh l m ng ay
+ម្សិលម្ងៃមួយ 		m s eh l m ng ay m ue y
 ថ្ងៃស្អែក 			th ng ay s aa ae k
 ខាន​ស្ឣែក     kh ah n s aa ae k
 ប្រឹក្សា 			b r oe k s ah
@@ -144,7 +144,7 @@
 គ្រុនពោះវៀន 			k r uh n p ueh w ea n
 អាសន្នរោគ 			ah s aa n r ow k
 រលាកស្រោមខួរ 		r oa l ea k s r ow m kh ue r
-ឆ្កែឆក្ួត 			ch k ae ch k ue t
+ឆ្កែឆ្កួត 			ch k ae ch k ue t
 គ្រុនចាញ់ 			k r uh n c ah gn
 គ្រុនឈាម 			k r uh n ch ea m
 ផ្ដាសសាយ 			ph d ah s s ah w
@@ -168,9 +168,9 @@
 ទឹកនោមប្រៃ 			t eo k n ow m b r ay
 លើសឈាម 			l eer s ch ea m
 អេដ៍ 				ie d
-សុីដា 				s iy d ah
+ស៊ីដា 				s iy d ah
 ស្អូច 				s aa ow c
-កញ្ច្រិល 			k aa gn c r eh l
+កញ្រិ្ជល 			k aa gn c r eh l
 ស្វាយ 				s v ah w
 ប្រមេះ 				b r aa m oeh
 រលាកទងសួត 			r oa l ea k t oa ng s ue t
@@ -187,8 +187,8 @@
 ដំឡូងផ្អែម 			d om l ow ng ph aa ae m
 បន្លែ 				b aa n l ae
 ផ្លែឈើ 			ph l ae ch eer
-សណ្ដែកដី 			s aa n d ae k d ey
-សណ្ដែកសៀង 		s aa n d ae k s ea ng
+សណ្តែកដី 			s aa n d ae k d ey
+សណ្តែកសៀង 		s aa n d ae k s ea ng
 ល្ង 				l ng oa
 អំពៅ 				om p auw
 ក្រចៅ 				k r aa c aow

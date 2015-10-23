@@ -1,6 +1,9 @@
 function [ energy, zc ] = energy_profile (audio, frame_width)
 % energy_profile - Compute engery profile and zero_crossing rate of a wav file
 %
+%       audio - AudioInfo struct
+%       frame_width - frame size in millisecond
+%
 % SP_Lab - University of Missouri-Columbia
 % Chanmann Lim
 % 09/29/2015
@@ -16,7 +19,7 @@ for t=1:total_frames
     start = samples_per_frame * (t-1) + 1;
     finish = start + samples_per_frame - 1;
     n_1 = finish + 1;
-    if finish > audio.TotalSamples
+    if finish >= audio.TotalSamples
         finish = audio.TotalSamples;
         n_1 = finish;
     end
@@ -30,7 +33,7 @@ for t=1:total_frames
 end
 fprintf('\n');
 
-% % Plot
+% Plot
 % figure;
 % hold on;
 % plot(1:total_frames, zc, 'r');
@@ -50,9 +53,3 @@ fprintf('\n');
 % xlabel('Frame (10ms each)');
 % legend('ZCR', 'E');
 % hold off;
-
-% function [ filename ] = basename( path )
-% % basename - get filename from path
-% 
-% last_slash = find(path == '/',1, 'last');
-% filename = path(last_slash+1:end);

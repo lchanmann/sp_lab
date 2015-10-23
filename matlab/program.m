@@ -21,8 +21,9 @@ words = zeros(1, C);
 
 % q1 - energy threshold
 % q1 = 1.2; % exp(sqrt(x'x));
-% q1 = 0.2; % sqrt(x'x);
-q1 = 0.05;
+% q1 = 0.02; % sqrt(x'x);
+% q1 = 0.05;
+q1 = -16;
 q2 = 100; % frame jump threshold
 m = 5;
 for i=1:C
@@ -31,11 +32,21 @@ for i=1:C
     fprintf('%d. Filename: %s\n', i, filename);
     wav = audioinfo([wav_dir filename]);
     [energy, zc] = energy_profile(wav, frame_width);
-    % energy jumps
+    
+    % plot
+    l = length(energy);
+    figure;
+    plot(1:l,energy, 1:l,zc, 1:l,ones(1,l)*q1);
+    title(filename);
+    legend('E', 'ZCR', 'q1');
+    
+    % energy filters
     J = find_jump(energy, q1, q2);
     J = duration_filter(J, 0.1 * frames_per_second);
-    J = zc_filter(J, zc, m);
+%     J = zc_filter(J, zc, m);
     J = sil_padding(J, [20 40]);
+    
+    % time marks extraction
     M = tm(J, frames_per_second);
     words(i) = size(M, 1);
     display(['(' num2str(words(i)) ') words.']);
